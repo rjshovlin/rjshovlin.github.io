@@ -1,6 +1,9 @@
-h1, h2, p {
+h1, h2, h3, h4, p {
 	color: red;
 	font-family: "Arial", sans-serif;
+	width: 300px;
+	margin: auto;
+	text-align: center;
 }
 
 p {
@@ -11,17 +14,71 @@ h4 {
 	font-size: 1.5em;
 }
 
+#projects-float-right{
+	float: right;
+	width: 50%;
+}
+
+#skills-float-left{
+	float: left;
+	width: 50%;
+}
+
 li {
   font-style: italic;
   font-weight: bold;
   font-size: 10px;
   font-family: sans-serif;
+  color: white;
 }
 
 .project-list-items {
 background-color: red;
+float: right;
+width: 50%;
 }
 
-.skills-list-items {
+/*.skills-list-items {
 background-color: blue;
+float: left;
+width: 50%;
+}*/
+
+.underline-word {
+	text-decoration: underline;
+}
+
+#business-potrait {
+	padding: 15px 20px;
+}
+
+td, th {
+	border: 1px solid #999;
+	padding: 0.5em;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#silicon{
+	padding: 15px 200px;
+	margin-top: 60px;
+}
+
+#hooli{
+	padding: 15px 200px
+}
+
+img {
+	max-width: 800px
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(background_image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
